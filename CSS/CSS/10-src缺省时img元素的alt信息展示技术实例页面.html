@@ -52,7 +52,33 @@
 
 </style>
 <body>
-    <img alt="美女沉思图" data-src="1.jpg">
+    <img alt="美女沉思图" data-src="images/1.jpg">
     <p><button>设置src属性显示图片</button></p>
 </body>
+<script>
+
+    var eleButton = document.querySelector('button'),
+        eleImg = document.querySelector('img');
+
+    if (eleButton && eleImg) {
+        var initValueButton = eleButton.innerHTML;
+        // 图片地址
+        var srcImage = eleImg.getAttribute('data-src');
+        // 移除该属性
+        eleImg.removeAttribute('data-src');
+        // 按钮点击事件
+        eleButton.addEventListener('click', function() {
+            if (this.innerHTML == initValueButton) {
+                this.innerHTML = '移除src属性';
+                // 图片显示
+                eleImg.setAttribute('src', srcImage);
+            } else {
+                this.innerHTML = initValueButton;
+                // src属性移除
+                eleImg.removeAttribute('src');
+            }
+        });
+    }
+
+</script>
 </html>
