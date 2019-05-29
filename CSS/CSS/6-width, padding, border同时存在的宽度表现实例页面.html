@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div {
+        width: 100px;
+        padding: 20px;
+        border: 20px solid;
+        margin: auto;
+    }
+</style>
+<body>
+
+<div class="div">
+    此时元素的offsetWidth是：<span id="divWidth"></span>
+</div>
+</body>
+<script>
+
+    var eleShowWidth = document.getElementById('divWidth');
+    if (eleShowWidth) {
+        eleShowWidth.innerHTML = eleShowWidth.parentNode.offsetWidth;
+    }
+
+</script>
+</html>

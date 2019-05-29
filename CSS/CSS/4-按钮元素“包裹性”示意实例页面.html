@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .box {
+        padding: 10px;
+        background-color: #cd0000;
+        text-align: center;
+        width: 200px;
+        margin: 0px auto;
+    }
+
+    .content {
+        text-align: left;
+        display: inline-block;
+    }
+
+    button {
+        display: block;
+        margin: 10px auto;
+    }
+
+</style>
+<body>
+<!--
+按钮文字越多宽度越宽(内部尺寸特性)，但如果文字足够多，则会在容器的 宽度处自动换行(自适应特性)。
+-->
+    <div class="box">
+        <p id="conMore" class="content">文字内容</p>
+    </div>
+    <!-- 按钮 -->
+    <button id="btnMore">更多文字</button>
+
+</body>
+
+<script type="text/javascript">
+    var btn = document.getElementById("btnMore");
+    var content = document.getElementById("conMore")
+    if (btn && content) {
+        btn.onclick = function (ev) {
+            content.innerHTML += "-新增文字"
+        }
+    }
+</script>
+
+</html>

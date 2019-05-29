@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+    .box {
+        /*inline-block  会根据流来填满宽度*/
+        /*block 宽度默认为父元素的100%*/
+        display: inline-block;
+        white-space: nowrap;
+        background-color: #cd0000;
+    }
+    .text {
+        display:  inline-block;
+        background-color: #34538b;
+        color: white;
+        width: 100%;
+    }
+
+</style>
+<body>
+
+<div class="box">
+    <img src="images/1.jpg">
+    <span class="text">红色背景是父级</span>
+</div>
+</body>
+</html>

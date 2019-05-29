@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .box {
+        height: 160px;
+        width: 160px;
+        padding: 30px;
+        background-color: #beceeb;
+        box-sizing: border-box;
+    }
+
+    .child {
+        background-color: #cd0000;
+        height: 100%;
+    }
+
+    .rel {
+        margin-top: 10px;
+        position: relative;
+    }
+
+    /*决定定位，脱离了正常的文档流*/
+    .rel > .child {
+        width: 100%;
+        position: absolute;
+    }
+</style>
+<body>
+
+<div class="box">
+    <div class="child">高度100px</div>
+</div>
+<div class="box rel">
+    <div class="child">高度160px</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+    .container {
+        /*为了显示居中*/
+        text-align: center;
+    }
+
+    .box {
+        position: relative;
+        display:  inline-block;
+    }
+
+    .box > img {
+        /*不设为块，100%高度会有点问题*/
+        display: block;
+    }
+
+    .prev,
+    .next {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        opacity: .5;
+    }
+
+    .prev {
+        left: 0;
+        background-color: #cd0000;
+    }
+
+    .next {
+        right: 0;
+        background-color: #34538b;
+    }
+
+
+
+    a, a:hover {
+        text-decoration: none;
+    }
+
+</style>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <a href="javascript:" class="prev" title="上一张">上一张</a>
+            <a href="javascript:" class="next" title="下一张">下一张</a>
+            <img src="images/1.jpg" width="256" height="192">
+        </div>
+    </div>
+
+</body>
+</html>

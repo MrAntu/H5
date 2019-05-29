@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .ao,
+    .tu {
+        display: inline-block;
+        width: 0;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 35px;
+        color: red;
+    }
+    .ao:before,
+    .tu:before {
+        outline: 2px solid #cd0000;
+        font-family: Consolas, Monaco, monospace;
+    }
+
+    .ao:before {
+        content: "love你love";
+    }
+    .tu:before {
+        content: "我love你";
+    }
+    .tu:before {
+        direction: rtl;
+    }
+
+
+</style>
+<body>
+    <span class="ao"></span>
+    <span class="tu"></span>
+</body>
+</html>
