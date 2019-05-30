@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+<!--万能清除法，利用伪类清楚浮动-->
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        height: 0px;
+        line-height: 0px;
+        visibility: hidden;
+        clear: both;
+    }
+    .clearfix {
+        /*为了兼容IE,为兼容IE6,IE7，因为ie6,ie7不能用after伪类。加上下面代码*/
+        zoom: 1;
+    }
+</style>
+<body>
+
+</body>
+</html>
