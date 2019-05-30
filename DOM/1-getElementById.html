@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    body {
+        color: white;
+        background-color: black;
+    }
+
+    #purchases {
+        border: 1px solid white;
+        background-color: #333;
+        color: #ccc;
+        padding: 1em;
+    }
+</style>
+<body>
+    <h1 class="title">What to buy</h1>
+    <p title="a gentle reminder">Dont forget to buy this stuff</p>
+    <ul id="purchases">
+        <li>A tin of beans</li>
+        <li>Cheese</li>
+        <li>Milk</li>
+    </ul>
+
+    <input type="text" name="input">
+</body>
+<script type="text/javascript">
+
+    alert(typeof document.getElementById("purchases"))  // object
+
+    // getElementsByTagName 返回数组
+    alert(document.getElementsByTagName("li").length) //3
+
+    //  getElementsByName 获取属性name的dom
+    alert(document.getElementsByName("input").length) //3
+
+    // 选择class名称
+    alert(document.querySelector('title'))
+
+
+</script>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    body {
+        color: white;
+        background-color: black;
+    }
+
+    #purchases {
+        border: 1px solid white;
+        background-color: #333;
+        color: #ccc;
+        padding: 1em;
+    }
+</style>
+<body>
+<h1 class="title" title="p">What to buy</h1>
+<p title="a gentle reminder">Dont forget to buy this stuff</p>
+<ul id="purchases">
+    <li>A tin of beans</li>
+    <li>Cheese</li>
+    <li>Milk</li>
+</ul>
+
+<input type="text" name="input">
+</body>
+<script type="text/javascript">
+
+
+    // var pNodes = document.getElementsByTagName("p");
+    // for (var i=0; i<pNodes.length; i++) {
+    //     alert(pNodes[i].getAttribute("title")); // a gentle reminder
+    // }
+
+    var shopping = document.getElementById("purchases");
+    alert(shopping.getAttribute("title")) // null
+    shopping.setAttribute('title', 'a list of goods');
+    alert(shopping.getAttribute("title")) //  a list of goods
+
+
+</script>
+</html>
