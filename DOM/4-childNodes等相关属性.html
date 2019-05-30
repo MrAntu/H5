@@ -9,6 +9,7 @@
 </style>
 <body>
     <h1>Snapshots</h1>
+    <p id="description">舒服舒服</p>
     <ul id="purchases">
         <li>
             <a href="javascript:" title="a">aa</a>
@@ -32,6 +33,19 @@
                 showPic(this)
             })
         }
+
+        // childNodes
+        var eleNodes = document.getElementsByTagName("ul")[0];
+        for (var i=0; i< eleNodes.childNodes.length; i++) {
+            console.log(eleNodes.childNodes[i]);
+        }
+
+        // nodeType（共有12种类型，只有3种是价值：1代表元素节点，2代表属性节点，3代表文本节点）
+        // nodeValue
+        var description = document.getElementById("description");
+        console.log(description.nodeValue); // null
+        console.log(description.childNodes[0].nodeValue);
+        description.firstChild.nodeValue = "sdfsdfsdfsdf";
     </script>
 
 </html>
