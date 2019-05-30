@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a55dd0-2b5e-462e-a2be-71f4d6c93e60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/10-src缺省时img元素的alt信息展示技术实例页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-按钮元素“包裹性”示意实例页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-“首选最小宽度”与凹凸效果实例页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-width, padding, border同时存在的宽度表现实例页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-width:100%与不存在死循环佐证实例页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-绝对定位和非绝对定位元素百分比值计算区别实例页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-任意大小图片的左右半区布局实例页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-src缺省时img元素的alt信息展示技术实例页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-src缺省时img元素的alt信息展示技术实例页面.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -90,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10-src缺省时img元素的alt信息展示技术实例页面.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="293">
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -201,12 +193,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559047032581</updated>
       <workItem from="1559047033876" duration="2195000" />
-      <workItem from="1559094140423" duration="8858000" />
+      <workItem from="1559094140423" duration="9252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11053000" />
+    <option name="totallyTimeSpent" value="11447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="188" y="-1033" width="1329" height="710" extended-state="0" />
@@ -313,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10-src缺省时img元素的alt信息展示技术实例页面.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="293">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
         </state>
       </provider>
     </entry>
