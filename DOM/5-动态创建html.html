@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+</style>
+<body>
+
+<div id="testdiv">
+
+</div>
+
+</body>
+<script>
+
+    //  document.write() 插入字符串到文档中
+    // document.write("<p>this is inserted.</p>");
+
+    // innerHTML  插入字符串到文档中 ， 此方法更常用
+    // var div = document.getElementById("testdiv");
+    // div.innerHTML = "<p>this is <em>testdiv</em> inserted.</p>"
+
+
+    // document.createElement() 创建元素节点
+    var testdiv = document.getElementById("testdiv");
+    var para = document.createElement("p");
+    testdiv.appendChild(para);
+    // 创建一个textNode
+    var txt = document.createTextNode("hello world");
+    para.appendChild(txt)
+
+
+</script>
+</html>

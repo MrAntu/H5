@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <p id="pnode">hello world</p>
+</div>
+</body>
+
+<script>
+
+    // insertBefore
+    var para = document.createElement("p");
+    var txt = document.createTextNode("hello world2222");
+    para.appendChild(txt)
+
+    var pnode = document.getElementById("pnode");
+    pnode.parentNode.insertBefore(para, pnode);
+
+</script>
+</html>
