@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    .siblings, .siblings>*
+    {
+        display: block;
+        border: 2px solid lightgrey;
+        color: lightgrey;
+        padding: 5px;
+        margin: 15px;
+    }
+</style>
+
+<body>
+
+<div class="siblings">div (父)
+    <p>p</p>
+    <span>span</span>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <p>p</p>
+</div>
+
+
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        // 找到h2标签的后面的所有兄弟节点
+        $("h2").nextAll().css({"color":"red","border":"2px solid red"});
+
+    })
+
+
+</script>
+</html>

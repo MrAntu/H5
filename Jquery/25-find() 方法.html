@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    .descendants *
+    {
+        display: block;
+        border: 2px solid lightgrey;
+        color: lightgrey;
+        padding: 5px;
+        margin: 15px;
+    }
+</style>
+
+<body>
+
+<div class="descendants" style="width:500px;">div (当前元素)
+    <p class="p1">p (子)
+        <span>span (孙)</span>
+    </p>
+    <p class="p2">p (child)
+        <span>span (孙)</span>
+    </p>
+</div>
+
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    // 返回 <div> 指定的后代所有 <span> 元素：
+    $(document).ready(function () {
+//        $("div").find("span").css({"color":"red","border":"2px solid red"});
+
+        // 返回所有的后代
+        $("div").find("*").css({"color":"red","border":"2px solid red"});
+
+    })
+
+
+</script>
+</html>

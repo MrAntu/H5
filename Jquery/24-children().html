@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    .descendants *
+    {
+        display: block;
+        border: 2px solid lightgrey;
+        color: lightgrey;
+        padding: 5px;
+        margin: 15px;
+    }
+</style>
+
+<body>
+
+<div class="descendants" style="width:500px;">div (当前元素)
+    <p class="p1">p (子)
+        <span>span (孙)</span>
+    </p>
+    <p class="p2">p (child)
+        <span>span (孙)</span>
+    </p>
+</div>
+
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    // 返回每个 <div> 元素的所有直接子元素：
+    $(document).ready(function () {
+//        $("div").children().css({
+//            color: "red",
+//            border: "2px solid red"
+//        })
+
+        // 返回类名为 "p2" 的所有 <p> 元素，并且它们是 <div> 的直接子元素：
+        $("div").children("p.p2").css({
+            color: "red",
+            border: "2px solid red"
+        })
+    })
+
+
+</script>
+</html>
