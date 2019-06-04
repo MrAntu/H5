@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>这是一个段落。</p>
+    <button>测试 jQuery</button>
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    //帮助您使用自己的名称（比如 jq）来代替 $ 符号。
+    var jq = $.noConflict();
+    jq(document).ready(function () {
+        jq("button").click(function () {
+            jq("p").text("jQuery 任在运行");
+        })
+    })
+</script>
+</html>

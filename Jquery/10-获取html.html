@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+
+</style>
+
+<body>
+<p id="test">这是段落中的<b>粗体</b>文本。</p>
+<button id="btn1">显示文本</button>
+<button id="btn2">显示 HTML</button>
+<br>
+<p>姓名：<input type="text" id="test2" value="米老鼠"></p>
+<button id="btn3">显示值</button>
+<br>
+<p><a href="http://www.w3school.com.cn" id="w3s">W3School.com.cn</a></p>
+<button id="btn4">显示 href 值</button>
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    // 操作DOM
+    // 获得内容 - text()、html() 以及 val() ,attr()
+    $(document).ready(function () {
+        $("#btn1").click(function () {
+           alert($("#test").text())
+        })
+
+        $("#btn2").click(function () {
+            alert($("#test").html())
+        })
+
+        $("#btn3").click(function () {
+            alert($("#test2").val())
+        })
+
+        $("#btn4").click(function () {
+            alert($("#w3s").attr("href"));
+        })
+    })
+</script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+
+</style>
+
+<body>
+<img src="eg_w3school.gif" alt="W3School Logo" />
+<br><br>
+<button id="btn1">在图片前面添加文本</button>
+<button id="btn2">在图片后面添加文本</button>
+<button id="btn3">在图片后面添加若干的节点</button>
+
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        // before 在当前节点前添加一个node
+        $("#btn1").click(function () {
+            $("img").before("<b>Before</b>")
+        })
+
+        // after 在当前节点的后面添加一个node
+        $("#btn2").click(function () {
+            $("img").after("<b>after</b>")
+        })
+
+        $("#btn3").click(afterText)
+
+    })
+
+    function afterText() {
+        var txt1 = "<b>I </b>"; /// 以 HTML 创建元素
+        var txt2 = $("<b></b>").text("love "); // 通过 jQuery 创建元素
+        var txt3 = document.createElement("big"); //通过 DOM 创建元素
+        txt3.innerHTML = "jQuery!"
+        $("img").after(txt1,txt2,txt3)
+    }
+</script>
+</html>

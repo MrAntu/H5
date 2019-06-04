@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    .important
+    {
+        font-weight:bold;
+        font-size:xx-large;
+    }
+    .blue
+    {
+        color:blue;
+    }
+</style>
+
+<body>
+    <h1>标题 1</h1>
+    <h2>标题 2</h2>
+    <p>这是一个段落。</p>
+    <p>这是另一个段落。</p>
+    <div>这是非常重要的文本！</div>
+    <br>
+    <button id="btn1">向元素添加类</button>
+    <button id="btn2">向元素删除类</button>
+    <button id="btn3">toggleClass</button>
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        // addclass
+        $("#btn1").click(function () {
+            $("h1, h2, p").addClass("blue");
+            $("div").addClass("important");
+        })
+
+
+        // removeClass
+        $("#btn2").click(function () {
+            $("h1, h2, p").removeClass("blue");
+        })
+
+        // toggleClass
+        $("#btn3").click(function () {
+            $("h1, h2, p").toggleClass("blue");
+        })
+
+
+    })
+
+
+</script>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .panel{
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        background: #e5eecc;
+        border: 1px solid #c3c3c3;
+    }
+
+    .panel {
+        height: 120px;
+        display: none;
+    }
+</style>
+<body>
+    <div class="panel">
+        <p>W3School - 领先的 Web 技术教程站点</p>
+        <p>在 W3School，你可以找到你所需要的所有网站建设教程。</p>
+    </div>
+    <button class="btn1">slideDown</button>
+    <button class="btn2">slideUp</button>
+    <button class="btn3">slideToggle</button>
+
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+
+    // jQuery 拥有以下滑动方法：
+    //
+    // slideDown()
+    // slideUp()
+    // slideToggle()
+
+    $(document).ready(function () {
+
+        $(".btn1").click(function () {
+            $(".panel").slideDown();
+        });
+
+        $(".btn2").click(function () {
+            $("div").slideUp();
+        });
+
+        $(".btn3").click(function () {
+            $(".panel").slideToggle();
+        });
+    })
+</script>
+</html>

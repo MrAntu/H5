@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+
+</style>
+
+<body>
+<p id="p1">jQuery 乐趣十足！</p>
+<button>点击这里</button>
+
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("button").click(function () {
+            $("#p1").css("color", "red")
+                .slideUp(2000)
+                .slideDown(2000)
+        })
+
+    })
+</script>
+</html>

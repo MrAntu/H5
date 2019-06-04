@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+
+</style>
+
+<body>
+    <p id="test1">这是段落。</p>
+    <p id="test2">这是另一个段落。</p>
+    <p>Input field: <input type="text" id="test3" value="Mickey Mouse"></p>
+    <button id="btn1">设置文本</button>
+    <button id="btn2">设置 HTML</button>
+    <button id="btn3">设置值</button>
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    // 操作DOM
+    // 设置内容 - text()、html() 以及 val() ,attr()
+    $(document).ready(function () {
+        $("#btn1").click(function () {
+           $("#test1").text("hello world")
+        })
+
+        $("#btn2").click(function () {
+            $("#test2").html("<b>Hello world!</b>")
+            // $("#test2").text("<b>Hello world!</b>")
+
+        })
+
+        $("#btn3").click(function () {
+            $("#test3").val("dolly duck")
+        })
+
+
+    })
+</script>
+</html>

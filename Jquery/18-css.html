@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+
+</style>
+
+<body>
+<h2>这是标题</h2>
+    <p style="background-color:#ff0000">这是一个段落。</p>
+    <p style="background-color:#00ff00">这是一个段落。</p>
+    <p style="background-color:#0000ff">这是一个段落。</p>
+    <button id="btn1">返回 p 元素的背景色</button>
+    <button id="btn2">设置 p 元素的背景色</button>
+    <button id="btn3">同时设置多个css</button>
+
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        // 返回首个匹配元素的 background-color 值
+        $("#btn1").click(function () {
+            alert("color = " + $("p").css("background-color"))
+        })
+
+        $("#btn2").click(function () {
+           $("p").css("background-color", "yellow")
+        })
+
+
+        // 同时设置多个css
+        $("#btn3").click(function () {
+            $("p").css({
+                "background-color": "yellow",
+                "font-size": "200%"
+            })
+        })
+    })
+
+
+</script>
+</html>

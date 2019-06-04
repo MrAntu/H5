@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <button type="button" class="btn" id="clickBtn">click me</button>
+</body>
+
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    // 几种常见的选择器,更多请查看w3school
+    $(document).ready(function () {
+        //标签选择器
+        // $("button").click(function () {
+        //     $(this).hide();
+        // })
+
+        // 类选择器
+        // $(".btn").click(function () {
+        //     $(this).hide();
+        // })
+
+        // id选择器
+        // $("#clickBtn").click(function () {
+        //     $(this).hide();
+        // })
+
+        // 选择class为btn的所有button标签
+        $("button.btn").click(function () {
+            $(this).hide();
+        })
+    })
+</script>
+
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+
+</style>
+
+<body>
+<p id="test1">这是<b>粗体</b>文本。</p>
+<p id="test2">这是另一段<b>粗体</b>文本。</p>
+<button id="btn1">显示旧/新文本</button>
+<button id="btn2">显示旧/新 HTML</button>
+<br>
+<p><a href="http://www.w3school.com.cn" id="w3s">w3school.com.cn</a></p>
+<button id="btn3">改变 href 值</button>
+<p>请把鼠标指针移动到链接上，或者点击该链接，来查看已经改变的 href 值。</p>
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    // 操作DOM
+    // 设置内容 - text()、html() 以及 val() ,attr()
+    $(document).ready(function () {
+        $("#btn1").click(function () {
+           $("#test1").text(function (i, origText) {
+               return "old text: " + origText + " new text: Hello world " + "index: " + i;
+           })
+        })
+
+        $("#btn2").click(function () {
+            $("#test2").html("<b>Hello world!</b>")
+            // $("#test2").text("<b>Hello world!</b>")
+
+        })
+
+        $("#btn3").click(function () {
+            $("#w3s").attr("href", function (i, orig) {
+                return orig + "/jquery"
+            })
+        })
+
+
+    })
+</script>
+</html>

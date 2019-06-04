@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+</style>
+<body>
+    <button class="btn1">开始动画</button>
+    <button class="btn2">相对值开始动画</button>
+    <button class="btn3">使用预定义的值</button>
+    <button class="btn4">使用队列功能</button>
+
+    <p>默认情况下，所有 HTML 元素的位置都是静态的，并且无法移动。如需对位置进行操作，记得首先把元素的 CSS position 属性设置为 relative、fixed 或 absolute。</p>
+    <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+</body>
+<script type="text/javascript" src="jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $(".btn1").click(function () {
+            $("div").animate({
+                left: '250px',
+                opacity: '0.5',
+                height: '150px',
+                width: '150px'
+            });
+        })
+
+        // 使用相对值
+        $(".btn2").click(function () {
+            $('div').animate({
+                left: '250px',
+                height: '+=150px',
+                width: '+=150px'
+            })
+        })
+
+        // 使用预定义的值
+        // 您甚至可以把属性的动画值设置为 "show"、"hide" 或 "toggle"：
+        $(".btn3").click(function () {
+            $("div").animate({
+                height: 'toggle'
+            })
+
+        })
+
+        // 使用队列功能, 多个动画时，会依次执行
+        $(".btn4").click(function () {
+            $("div").animate({
+                height: '300px',
+                opacity: '0.4',
+            }, 'slow')
+
+            $("div").animate({
+                height: '300px',
+                opacity: '0.8',
+            }, 'slow')
+
+            $("div").animate({
+                height: '100px',
+                opacity: '0.4',
+            }, 'slow')
+
+            $("div").animate({
+                height: '100px',
+                opacity: '0.8',
+            }, 'slow')
+        })
+    })
+</script>
+</html>
