@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbae230f-b357-43fd-b58b-c63d4f57f432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1-选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-获取html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-设置DOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-设置DOM带回调函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-添加append.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-添加prepend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-添加after-before.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16-删除remove-empty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-名称冲突，重命名.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-隐藏显示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-淡入淡出.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-滑动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-stop停止动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-动画callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9-chaining链式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eg_w3school.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-尺寸.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,15 +28,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eg_w3school.gif">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13-添加append.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -87,15 +60,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/18-css.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="56">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/19-尺寸.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,18 +95,6 @@
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery-3.4.1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6878" column="4" selection-start-line="6878" selection-start-column="4" selection-end-line="6878" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,16 +158,7 @@
         <option value="$PROJECT_DIR$/16-删除remove-empty.html" />
         <option value="$PROJECT_DIR$/17-class.html" />
         <option value="$PROJECT_DIR$/18-css.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Jquery.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/19-尺寸.html" />
       </list>
     </option>
   </component>
@@ -227,6 +191,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -262,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559616940806</updated>
-      <workItem from="1559616942004" duration="11968000" />
+      <workItem from="1559616942004" duration="12313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11968000" />
+    <option name="totallyTimeSpent" value="12313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="-1013" width="1500" height="710" extended-state="0" />
@@ -433,18 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4-淡入淡出.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11-设置DOM.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -469,24 +422,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/18-css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jquery-3.4.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6878" column="4" selection-start-line="6878" selection-start-column="4" selection-end-line="6878" selection-end-column="4" />
+        <state relative-caret-position="189">
+          <caret line="6766" column="25" selection-start-line="6766" selection-start-column="25" selection-end-line="6766" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/18-css.html">
+    <entry file="file://$PROJECT_DIR$/4-淡入淡出.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="151">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-尺寸.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
