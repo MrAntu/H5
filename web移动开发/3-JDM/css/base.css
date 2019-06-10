@@ -1,0 +1,60 @@
+
+/*通用布局*/
+
+*,
+::before,
+::after{
+    font-size: 14px;
+
+    margin: 0;
+    padding: 0;
+
+    /*手指点击效果*/
+    -webkit-tap-highlight-color: transparent;
+
+    /* 盒子模型*/
+    /*box-sizing 输完全部的按tab，就会显示完三个*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /*统一设置文字，sans-serif移动端默认的字体*/
+    font-family: '微软雅黑', sans-serif;
+}
+
+/*所有的a标签去掉下划线*/
+a {
+    text-decoration: none;
+}
+
+/*初始化input默认样式*/
+input{
+    border: none;
+    -webkit-appearance: none;
+}
+
+/*去掉小圆点*/
+ol,ul{
+    list-style: none;
+}
+
+/*左浮动*/
+.f_l {
+    float: left;
+}
+
+/*右浮动*/
+.f_r {
+    float: right;
+}
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}

@@ -1,0 +1,215 @@
+
+.jd_container {
+    max-width: 640px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #eee;
+}
+
+/*fixed布局，会脱离普通的文档流，设置 width: 100%;会根据浏览器窗口变化
+所以重新设置 max-width: 640px;  min-width: 300px;
+*/
+.jd_header {
+    height: 40px;
+    width: 100%;
+    /*需要重新设置下最大最小宽度*/
+    max-width: 640px;
+    min-width: 300px;
+    background-color: rgb(201,21,35);
+    position: fixed;
+    z-index: 100;
+
+    /*设置padding 把input挤进去*/
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.jd_header .header_logo {
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    background-image: url("../images/sprites.png");
+    background-position: 0 -103px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+
+.jd_header .header-search {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+
+.jd_header .header-glass {
+    height: 20px;
+    width:20px;
+    position: absolute;
+    background-image: url("../images/sprites.png");
+    background-position: -60px -109px;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    top: 10px;
+    left: 80px;
+}
+.jd_header .header-login {
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+}
+
+/*轮播图*/
+.jd_banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.jd_banner .banner_images {
+    /*每个图片是100%，10张图*/
+    width: 1000%;
+}
+.jd_banner .banner_images li {
+    /*每个li占父类的10%*/
+    width: 10%;
+    float: left;
+}
+.jd_banner .banner_images li a {
+    width: 100%;
+    display: block;
+}
+.jd_banner .banner_images li a img {
+    width: 100%;
+    display: block;
+}
+
+.jd_banner .banner_index {
+    position: absolute;
+    bottom: 10px;
+
+    /*居中*/
+    left: 50%;
+    margin-left: -44px;
+}
+.jd_banner .banner_index li {
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 5px;
+}
+
+/*li中class为.current*/
+.jd_banner .banner_index li.current {
+
+    background-color: white;
+}
+
+/*导航栏*/
+.jd_nav {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+
+}
+.jd_nav ul {
+    width: 100%;
+}
+.jd_nav ul li {
+    width: 25%;
+    float: left;
+}
+.jd_nav ul li a {
+    width: 100%;
+    display: block;
+}
+.jd_nav ul li a img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+.jd_nav ul li a p {
+    text-align: center;
+    color: gray;
+    padding: 5px 0px;
+}
+
+/*主要内容样式*/
+.jd_main {
+    width: 100%;
+    padding: 0px 5px;
+    margin-top: 10px;
+}
+.jd_main .main_content{
+    width: 100%;
+    background-color: white;
+    min-height: 150px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 2px gray;
+}
+.jd_main .main_content .content_top{
+    height: 32px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.jd_main .main_content .content_bottom{
+    width: 100%;
+}
+
+/*内容区域第一个盒子 掌上秒杀*/
+.jd_main .main_content:nth-child(1) {}
+.jd_main .main_content:nth-child(1) .content_top {
+    border-bottom: none;
+}
+
+.jd_main .main_content:nth-child(1) .content_top span{
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-image: url("../images/seckill-icon.png");
+    background-size: 20px 25px;
+    float: left;
+    margin-top: 3.5px;
+    margin-left: 5px;
+}
+
+.jd_main .main_content:nth-child(1) .content_top p {
+    line-height: 32px;
+    color: rgb(201,21,35);
+    float: left;
+    margin-left: 5px;
+}
+
+.jd_main .main_content:nth-child(1) .content_top ul {
+    float: left;
+    margin-left: 5px;
+    margin-top: 8.5px;
+}
+
+.jd_main .main_content:nth-child(1) .content_top ul li{
+    float: left;
+    background-color: black;
+    color: white;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 15px;
+    margin-left: 3px;
+}
+.jd_main .main_content:nth-child(1) .content_top a {
+    float: right;
+    line-height: 32px;
+    margin-right: 5px;
+}
