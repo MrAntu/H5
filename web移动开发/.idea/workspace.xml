@@ -2,33 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="511270e5-33ca-4ec3-a744-657875fde917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/web移动开发.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-viewport属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-移动端点击效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/l1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/l2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/l3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/l4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/l5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/l6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/l7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/l8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/nav0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/nav1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/nav2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/nav3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/nav4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/nav5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/nav6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/nav7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/seckill-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/images/sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-JDM/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/css/category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/banner_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/cp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/cp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/cp3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/detail01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/detail02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/images/nv-fy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-JDM/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-JDM/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-JDM/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-JDM/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-JDM/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-JDM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-JDM/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,32 +31,85 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-viewport属性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-移动端点击效果.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="49" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="14" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3-JDM/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="83" column="33" lean-forward="true" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+            <state relative-caret-position="18">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3-JDM/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+              <folding>
+                <marker date="1560240108415" expanded="true" signature="277:293" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3-JDM/category.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+              <folding>
+                <element signature="e#473#477#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3-JDM/images/header-bg.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3-JDM/images/cp1.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3-JDM/css/category.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3-JDM/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="17015" column="32" lean-forward="true" selection-start-line="17015" selection-start-column="32" selection-end-line="17015" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-viewport属性.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -77,27 +119,6 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3-JDM/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="210" column="28" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
-              <folding>
-                <marker date="1560160663831" expanded="true" signature="277:293" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3-JDM/css/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -105,6 +126,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -117,14 +139,17 @@
         <option value="$PROJECT_DIR$/1-viewport属性.html" />
         <option value="$PROJECT_DIR$/2-移动端点击效果.html" />
         <option value="$PROJECT_DIR$/3-JDM/css/base.css" />
+        <option value="$PROJECT_DIR$/3-JDM/category.html" />
+        <option value="$PROJECT_DIR$/3-JDM/css/category.css" />
         <option value="$PROJECT_DIR$/3-JDM/index.html" />
         <option value="$PROJECT_DIR$/3-JDM/css/index.css" />
+        <option value="$PROJECT_DIR$/3-JDM/js/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="-1042" />
+    <option name="x" value="41" />
+    <option name="y" value="90" />
     <option name="width" value="1399" />
     <option name="height" value="877" />
   </component>
@@ -156,7 +181,7 @@
               <item name="web移动开发" type="b2602c69:ProjectViewProjectNode" />
               <item name="web移动开发" type="462c0819:PsiDirectoryNode" />
               <item name="3-JDM" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,15 +228,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560136408752</updated>
-      <workItem from="1560136411214" duration="13722000" />
+      <workItem from="1560136411214" duration="26379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13722000" />
+    <option name="totallyTimeSpent" value="26379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="-1042" width="1399" height="877" extended-state="0" />
+    <frame x="41" y="90" width="1399" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -237,13 +262,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-viewport属性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-移动端点击效果.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -251,34 +269,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-JDM/images/sprites.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/3-JDM/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="19" />
+        <state relative-caret-position="318">
+          <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-JDM/index.html">
+    <entry file="file://$PROJECT_DIR$/3-JDM/images/nav1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-JDM/images/nav0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-JDM/images/header-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-JDM/images/cp1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-JDM/images/sprites.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-JDM/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="83" column="33" lean-forward="true" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+        <state relative-caret-position="363">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#473#477#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-JDM/css/category.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-viewport属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3-JDM/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="210" column="28" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
+        <state relative-caret-position="267">
+          <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
           <folding>
-            <marker date="1560160663831" expanded="true" signature="277:293" ph="..." />
+            <marker date="1560240108415" expanded="true" signature="277:293" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="17015" column="32" lean-forward="true" selection-start-line="17015" selection-start-column="32" selection-end-line="17015" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-JDM/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-JDM/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
         </state>
       </provider>
     </entry>

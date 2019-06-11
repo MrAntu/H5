@@ -48,6 +48,20 @@ ol,ul{
     float: right;
 }
 
+/*添加边框*/
+.b_l {
+    border-left: 1px solid #ccc;
+}
+.b_r {
+    border-right: 1px solid #ccc;
+}
+.b_t {
+    border-top: 1px solid #ccc;
+}
+.b_b {
+    border-bottom: 1px solid #ccc;
+}
+
 /*清除浮动*/
 .clearfix::before,
 .clearfix::after {

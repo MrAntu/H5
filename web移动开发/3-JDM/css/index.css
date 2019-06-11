@@ -155,7 +155,7 @@
 .jd_main .main_content{
     width: 100%;
     background-color: white;
-    min-height: 150px;
+    min-height: 160px;
     margin-bottom: 5px;
     box-shadow: 0px 0px 2px gray;
 }
@@ -212,4 +212,88 @@
     float: right;
     line-height: 32px;
     margin-right: 5px;
+    color: black;
+}
+
+/*第三个，第6个li设置背景颜色和字体颜色*/
+.jd_main .main_content:nth-child(1) .content_top ul li:nth-child(3n) {
+    background-color: transparent;
+    color: black;
+}
+
+.jd_main .main_content:nth-child(1) .content_bottom {
+    width: 100%;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul  {
+    width: 100%;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li  {
+    width: 33.3333333%;
+    float: left;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li a  {
+    display: block;
+    width: 100%;
+    border-right: 1px solid #ccc;
+}
+
+.jd_main .main_content:nth-child(1) .content_bottom ul li:last-child a {
+    border-right:none;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li a img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li p {
+    text-align: center;
+    font-size: 14px;
+    padding: 3px 0;
+}
+/*下标从2开始，因为a和p平级，所有a的下标为1*/
+.jd_main .main_content:nth-child(1) .content_bottom ul li p:nth-child(2) {
+    color: rgb(201,21,35);
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li p:nth-child(3) {
+    color: black;
+    text-decoration: line-through;
+}
+
+
+/*选中除了第一个的，所有main_content类*/
+.jd_main .main_content:nth-child(n+2) .content_top{}
+.jd_main .main_content:nth-child(n+2) .content_top span{
+    display: block;
+    color: rgb(201,21,35);
+    line-height: 32px;
+    margin-left: 15px;
+    position: relative;
+}
+.jd_main .main_content:nth-child(n+2) .content_top span:before{
+    content: "";
+    position: absolute;
+    /*布局位置*/
+    height: 12px;
+    width: 5px;
+    background-color: rgb(201,21,35);
+    left: -10px;
+    top:9.5px;
+}
+
+.jd_main .main_content:nth-child(n+2) .content_bottom{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li{
+    width: 50%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a{
+    width: 100%;
+    display: block;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a img{
+    display: block;
+    width: 100%;
 }
