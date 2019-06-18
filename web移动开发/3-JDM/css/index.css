@@ -78,6 +78,9 @@
 .jd_banner .banner_images {
     /*每个图片是100%，10张图*/
     width: 1000%;
+
+    /*默认需要显示第一张轮播图，所以向左需要偏移10%，就是一个屏幕的宽度*/
+    transform: translateX(-10%);
 }
 .jd_banner .banner_images li {
     /*每个li占父类的10%*/
