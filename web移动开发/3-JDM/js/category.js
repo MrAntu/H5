@@ -37,16 +37,18 @@ function left_scroll() {
     //总的移动距离
     let distanceY = 0;
 
+    let isMoved = false
     //监听手势
     moveUI.addEventListener('touchstart',function (event) {
         startY = event.touches[0].clientY;
         //关闭过渡效果
         moveUI.style.transition = "";
+        isMoved = false
     })
 
     moveUI.addEventListener('touchmove',function (event) {
         moveY = event.touches[0].clientY - startY;
-
+        isMoved = true
         // 判断 是否满足 移动的条件
         if ((moveY + distanceY) > (maxDistance + delayDistance)) {
             moveY = 0;
@@ -75,11 +77,65 @@ function left_scroll() {
             distanceY = minDistance;
         }
 
+        // 说明只是点击了，没有移动，不需要动画
+        if (isMoved == false) {
+            return
+        }
         //开启过渡
         moveUI.style.transition = "all 0.3s";
 
         moveUI.style.transform = 'translateY('+distanceY+'px)';
     })
+
+    //点击事件
+    //获取所有的li
+    let liList = document.querySelectorAll(".main_left ul li");
+
+    //获取一个li的高度
+    let liHeight = document.querySelector(".main_left ul li").offsetHeight;
+
+    //给所有的li绑定一个index属性
+    for (let i=0;i<liList.length;i++) {
+        // 设置带横线属性的正确姿势
+        liList[i].dataset["index"] = i;
+    }
+
+    //给ul添加点击事件
+    fox_tap(moveUI,function (e) {
+        // e.target为a标签
+        // console.log(e.target)
+        // li标签
+        // console.log(e.target.parentNode)
+
+        // 清空所有li的class
+        for (let i=0;i<liList.length;i++) {
+            liList[i].className = '';
+        }
+
+        //设置当前点击li的class
+        e.target.parentNode.className = "current";
+
+        //获取当前li的index
+        let currentIndex = e.target.parentNode.dataset["index"];
+
+        //计算偏移量,往上滚动，为负
+        let distance = currentIndex * liHeight * -1;
+
+        if (distance > maxDistance) {
+            distance = maxDistance;
+        }  else if (distance < minDistance) {
+            distance = minDistance;
+        }
+
+        //重新赋值，记录已经移动的距离，
+        distanceY = distance;
+        //开启过渡
+        moveUI.style.transition = "all 0.3s";
+
+        moveUI.style.transform = 'translateY('+distanceY+'px)';
+
+    })
+
 }
 
 
@@ -117,7 +173,7 @@ function fox_tap(element,callBack) {
         // 修改标示变量
         isMove = true;
     })
-    element.addEventListener('touchend',function (event) {
+    element.addEventListener('touchend',function (e) {
         if (isMove == true) {
             // console.log('失效');
             return;
