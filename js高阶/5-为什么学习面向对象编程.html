@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../Jquery/jquery-3.4.1.min.js"></script>
+</head>
+
+<script>
+
+    // 面向过程的思维创建一个div
+    window.onload = function () {
+        // 1.创建div
+        var div = document.createElement("div");
+        // 2.设置样式
+        div.style.height = "200px";
+        div.style.width = "200px";
+        div.style.border = "1px solid pink";
+        //添加到body
+        document.body.appendChild(div);
+
+        //面向对象
+        $("body").append("<div style=\"width: 200px;height: 200px;border: 1px solid pink\"></div> ")
+
+        //面向对象是对面向过程的封装，
+    }
+</script>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<script>
+    // 值类型: 存储的就是数据本身的变量就是值类型的数据 string number boolean undefined
+    // 引用类型：存储的是数据在内存中的地址  object Array null
+
+    var str = "123";
+    var str1 = str;
+
+    // 值类型： 赋值是复制,两份值在内存是独立的，另外变量的改变，不影响当前的值
+    str = "3434";
+    console.log(str1); // 123
+
+
+
+    // 引用类型： 赋值是引用，值共用一份内存
+    var p1 = {
+        name: "郭富城",
+        age: 60
+    }
+
+    var p2 = p1;
+
+    p1.name = "潘明";
+    p1.age = "18";
+
+    console.log(p2) // {name: "潘明", age: "18"}
+
+
+    var obj = {
+        name: "宅男"
+    }
+
+    function test(param) {
+        // obj = param  两个都指向同一块地址,所有name= "高富帅"
+        param.name = "高富帅";
+
+        // param的指向重新指向了一块新的地址,但是obj的指向的地址没变，所有不影响obj.name
+        param = {
+            name: "腐女"
+        }
+
+        param.name = "lisi";
+    }
+    test(obj);
+    console.log(obj.name); // 高富帅
+</script>
+<body>
+
+</body>
+</html>

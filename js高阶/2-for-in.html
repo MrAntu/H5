@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<script>
+
+    var obj = {
+        name: 'lisi',
+        age: 18
+    }
+
+    // 属性需要加引号
+    var isExist = "name" in obj; // true
+    console.log(isExist)
+
+    for (let k in obj) {
+        console.log(k) // name  age
+    }
+
+
+    var arr = [9, 2, 3, 4];
+    // in关键字操作数组的时候是索引是否存在，而不是值
+    console.log(0 in arr); // true
+    console.log(6 in arr); // false
+
+    //会做一个隐式的转换,转换成索引
+    console.log("0" in arr);// true
+
+
+    //indexOf 返回索引是否存在，存在就返回索引,不存在返回-1
+    console.log(arr.indexOf(9)); // 0
+    console.log(arr.indexOf(1)); // -1
+
+    
+
+</script>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.header .row div {
+  border: 1px solid olivedrab;
+  height: 50px;
+  text-align: center;
+}
+.header .row div a {
+  text-decoration: none;
+  line-height: 50px;
+  color: gray;
+}
+.header .row div .margin-left {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=base.css.map */

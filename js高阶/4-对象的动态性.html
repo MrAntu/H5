@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<script>
+
+    // 可以动态添加属性
+    var obj = {
+        name: "lisi",
+        age: 50
+    }
+
+    obj.gender = "male";
+    obj.sayHello = function () {
+        console.log("啥地方地方");
+    }
+
+    obj.sayHello(); // 啥地方地方
+    console.log(obj["name"]); // lisi
+</script>
+<body>
+
+</body>
+</html>
