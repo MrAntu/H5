@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        
+        div {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin-left: 100px;
+            margin-top: 20px;
+            background-color: brown;
+        }
+        
+        .sub {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            padding: 10px 10px;
+            border: 1px solid#ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="father">
+        <div class="sub"></div>
+    </div>
+    <script>
+        // var sub = document.querySelector('.sub')
+        // console.log(1 / "1");
+        var obj = {
+            age: 20,
+            say: () => {
+                console.log(this.age)
+            }
+        }
+        obj.say();
+        var sub = document.querySelector(".sub");
+    </script>
+</body>
+
+</html>

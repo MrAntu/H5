@@ -1,0 +1,328 @@
+/* 重置样式 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+}
+
+body {
+	background-color: #f3f5f7;
+	/*方便写代码 一会别忘了删除*/
+	/* height: 3000px; */
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+/* 版心宽度 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 42px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: pink; */
+} 
+
+.logo {
+    float: left;
+    margin-right: 60px;
+}
+
+.nav {
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+    /* padding: 0 10px; */
+}
+.nav ul li a {
+    display: block;
+    padding: 0 10px;
+    margin-right: 20px;
+    line-height: 40px;
+
+    color: black;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid skyblue;
+}
+
+.search {
+    float: left;
+    margin-left: 50px;
+}
+
+.search input {
+    float: left;
+    width: 340px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid skyblue;
+    border-right: none;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    background-image: url(images/btn.png);
+}
+
+.user {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 30px;
+	font-size: 14px;
+	color: #666;
+}
+
+.user img {
+     /* 文本居中对齐l, 只对行内，行内块元素有效 */
+     vertical-align: middle;
+}
+
+.banner {
+    height: 420px;
+    /* background-color:blue; */
+	background: #1c036c url(images/banner2.jpg) no-repeat top center;
+}
+
+.subnav {
+    float: left;
+    width: 150px;
+    height: 420px;
+    padding: 0 20px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+}
+
+.subnav a {
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+.subnav a:hover {
+    color: skyblue;
+}
+.subnav span {
+    float: right;
+}
+
+.course {
+    float: right;
+    margin-top: 50px;
+    width: 228px;
+    height: 300px;
+    background-color:pink;
+}
+
+.course-hd {
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+
+}
+
+.course-bd {
+    padding: 0 15px;
+}
+
+.course-bd ul {
+    /* 无效，margin产生塌陷 */
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
+
+.course-bd li {
+    height: 50px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.course-bd li h4 {
+    font-size: 14px;
+    color: #4e4e4e;
+}
+
+.course-bd li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.all {
+    display: block;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.all:hover {
+    color: white;
+    background-color: blue;
+}
+
+.goods {
+    height: 60px;
+    margin-top: 10px;
+    line-height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.goods h3 {
+    float: left;
+    margin: 0 30px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.goods-item {
+    float: left;
+    color: #bfbfbf;
+}
+
+.goods-item a {
+    margin: 0 30px;
+    color: #050505;
+    font-size: 16px;
+}
+
+.mod {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+
+.box {
+    margin-top: 15px;
+}
+
+.box-hd {
+    height: 60px;
+    line-height: 60px;
+    /* background-color: pink; */
+}
+
+.box-hd h3 {
+    float: left;
+    font-weight: 400;
+}
+
+.box-hd a {
+    float: right;
+    margin-right: 30px;
+}
+
+.box-bd {
+    /* 多给15才能每行显示5个 */
+    width: 1215px;
+}
+
+.box-bd li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    /* background-color: pink; */
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.box-bd li img {
+    width: 100%;
+}
+.box-bd li h4 {
+    margin: 20px;
+    font-weight: 400;
+}
+.box-bd li p {
+    margin:  0 20px;
+}
+
+.box-bd li span {
+    color: orange;
+}
+
+/*footer*/
+.footer {
+	height: 385px;
+	padding-top: 30px;
+	background-color: #fff;
+}
+.copyright {
+	float: left;
+}
+.copyright p {
+	font-size: 12px;
+	color: #666;
+	margin: 20px 0 15px 0;
+}
+.app {
+	display: block;
+	width: 118px;
+	height: 34px;
+	border: 1px solid #00a4ff;
+	text-align: center;
+	line-height: 34px;
+	font-size: 16px;
+	color: #00a4ff;
+}
+.links {
+	float: right;
+}
+.links  dl {
+	float: left;
+	margin-left: 100px;
+}
+.links  dt {
+	height: 35px;
+	font-size: 16px;
+	color: #333;
+}
+.links  dd a {
+	font-size: 12px;
+	color: #333;
+}
+.links  dd a:hover {
+	color: #004aff;
+}
